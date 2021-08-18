@@ -1,0 +1,53 @@
+{ 
+  "dial_id":"2",
+  "little_img_addr":"0x0",
+  "single_image":
+  {
+    "type":1,
+    "x":0,
+    "y":0,
+    "img_addr":"0xA8C4"
+  },
+  "dial_pointer1":
+  { 
+    "type"             :2,   
+    "data_type"        :1,
+    "x"                :152,
+    "y"                :62,  
+    "img_addr"         :"0x558C8", 
+    "img_heigth"       :12,
+    "img_width"        :58,
+    "start_arc"        :0,
+    "end_arc"          :360,
+    "rotation_center_x":8,
+    "rotation_center_y":98
+  },
+  "dial_pointer2":
+  { 
+    "type"             :2,   
+    "data_type"        :2,
+    "x"                :146,
+    "y"                :36,  
+    "img_addr"         :"0x56CAC",
+    "img_heigth"       :10,
+    "img_width"        :123,
+    "start_arc"        :0,
+    "end_arc"          :360,
+    "rotation_center_x":14,
+    "rotation_center_y":124
+  },
+  "dial_pointer3":
+  { 
+    "type"             :2,   
+    "data_type"        :3,
+    "x"                :149,
+    "y"                :32,  
+    "img_addr"         :"0x59950",
+    "img_heigth"       :10,
+    "img_width"        :123,
+    "start_arc"        :0,
+    "end_arc"          :360,
+    "rotation_center_x":11,
+    "rotation_center_y":128
+  }
+}

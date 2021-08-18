@@ -1,0 +1,45 @@
+{ 
+  "dial_id":"0",
+  "single_image":
+  {
+    "type":1,
+    "x":1230,
+    "y":110,
+    "img_addr":1
+  },
+  "dial_pointer":
+  { 
+    "type"             :2,   
+    "data_type"        :1,
+    "x"                :0,
+    "y"                :0,  
+    "img_addr"         :0,
+    "img_heigth"       :0,
+    "img_width"        :0,
+    "start_arc"        :0,
+    "end_arc"          :360,
+    "rotation_center_x":0,
+    "rotation_center_y":0
+  },
+  "dial_text":
+  { 
+    "type"            :5,
+    "data_type"       :1, 
+    "x"               :0,  
+    "y"               :0,  
+    "text_width"      :0, 
+    "text_rgb"        :[1,2,3],  
+    "text_align"      :0 ,  
+    "text_size"       :0 ,  
+    "text_custom"     :"abcd"
+  },
+  "dial_mode_image":
+  {
+    "type"           :6,     
+    "data_type"      :1,       
+    "x"              :0,
+    "y"              :0,
+    "img_addr"       :[1,2,3,4,5,6],   
+    "data_mode"      :1
+  }
+}

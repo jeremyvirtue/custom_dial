@@ -1,0 +1,5 @@
+#define      dial_setting_main2_little_120x120_png                                                                (default_base+0x00)
+#define      main_2_bg_320x320_png                                                                              (default_base+0xA8C4)
+#define      main_2_hour_16x106_c98_png                                                                        (default_base+0x558C8)
+#define      main_2_min_28x136_c124_png                                                                        (default_base+0x56CAC)
+#define      main_2_sec_22x168_c128_png                                                                        (default_base+0x59950)
