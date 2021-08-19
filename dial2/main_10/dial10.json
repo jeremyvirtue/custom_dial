@@ -1,5 +1,6 @@
 { 
   "dial_id":"10",
+  "little_img_addr":"0x0",
   "dial_mode_image1":
   {
     "type"           :6,     
