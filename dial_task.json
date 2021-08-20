@@ -1,241 +1,115 @@
 { 
-  "dial_id":"38",
-  "little_img_addr":"0x4B91A",
+  "dial_id":"37",
+  "little_img_addr":"0x4CF6A",
   "single_image":
   {
     "type":1,
     "x":0,
     "y":0,
-    "img_addr":"0x916"
-  },
-  "dial_mode_blue":
-  {
-    "type"           :6,     
-    "data_type"      :20,       
-    "x"              :100 ,
-    "y"              :20,
-    "img_addr"       :["0x5818E","0x576FE"],   
-    "data_mode"      :0
-  },
-  "dial_mode_alarm":
-  {
-    "type"           :6,     
-    "data_type"      :21,       
-    "x"              :145 ,
-    "y"              :20,
-    "img_addr"       :["0x56C6E","0x561DE"],   
-    "data_mode"      :0
-  },
-  "dial_mode_wurao":
-  {
-    "type"           :6,     
-    "data_type"      :22,       
-    "x"              :190 ,
-    "y"              :20,
-    "img_addr"       :["0x5C7E0","0x5BD50"],   
-    "data_mode"      :0
-  },
-  "dial_mode_dianchi":
-  {
-    "type"           :6,     
-    "data_type"      :23,       
-    "x"              :17,
-    "y"              :165,
-    "img_addr"       :["0x5A20E","0x598F8","0x5AB24","0x5B43A","0x58FE2"],   
-    "data_mode"      :0
-  },
-  "dial_text_week":
-  {
-    "type"            :5,
-    "data_type"       :9, 
-    "x"               :130,  
-    "y"               :97,  
-    "text_width"      :61, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :1,  
-    "text_size"       :4 ,  
-    "text_custom"     :""
-  },
-  "dial_text_weather":
-  {
-    "type"            :5,
-    "data_type"       :13, 
-    "x"               :260 ,  
-    "y"               :150,  
-    "text_width"      :48, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :1 ,  
-    "text_size"       :4 ,  
-    "text_custom"     :""
-  },
-  "dial_text_heart":
-  {
-    "type"            :5,
-    "data_type"       :5, 
-    "x"               :149 ,  
-    "y"               :283,  
-    "text_width"      :23, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :1 ,  
-    "text_size"       :2 ,  
-    "text_custom"     :""
-  },
-  "dial_text_step":
-  {
-    "type"            :5,
-    "data_type"       :14, 
-    "x"               :30 ,  
-    "y"               :75,  
-    "text_width"      :69, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :1 ,  
-    "text_size"       :2 ,  
-    "text_custom"     :""
-  },
-  "dial_text_kal":
-  {
-    "type"            :5,
-    "data_type"       :17, 
-    "x"               :221 ,  
-    "y"               :75,  
-    "text_width"      :69, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :1 ,  
-    "text_size"       :2 ,  
-    "text_custom"     :""
-  },
-  "dial_text_diatance":
-  {
-    "type"            :5,
-    "data_type"       :23, 
-    "x"               :30 ,  
-    "y"               :231,  
-    "text_width"      :69, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :1 ,  
-    "text_size"       :2 ,  
-    "text_custom"     :""
-  },
-  "dial_text_sportime":
-  {
-    "type"            :5,
-    "data_type"       :16, 
-    "x"               :221 ,  
-    "y"               :231,  
-    "text_width"      :69, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :1 ,  
-    "text_size"       :2 ,  
-    "text_custom"     :""
-  },
-  "dial_text_power":
-  {
-    "type"            :5,
-    "data_type"       :18, 
-    "x"               :12,  
-    "y"               :140,  
-    "text_width"      :51, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :1,  
-    "text_size"       :2 ,  
-    "text_custom"     :""
-  },
-
-  "dial_text_hour_high":
-  {
-    "type"            :5,
-    "data_type"       :1, 
-    "x"               :83,  
-    "y"               :130,  
-    "text_width"      :35, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :0,  
-    "text_size"       :7 ,  
-    "text_custom"     :""
-  },
-  "dial_text_hour_low":
-  {
-    "type"            :5,
-    "data_type"       :2, 
-    "x"               :118,  
-    "y"               :130,  
-    "text_width"      :35, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :0,  
-    "text_size"       :7 ,  
-    "text_custom"     :""
-  },
-  "dial_text_min_high":
-  {
-    "type"            :5,
-    "data_type"       :3, 
-    "x"               :170,  
-    "y"               :130,  
-    "text_width"      :35, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :0,  
-    "text_size"       :7 ,  
-    "text_custom"     :""
-  },
-  "dial_text_min_low":
-  {
-    "type"            :5,
-    "data_type"       :4, 
-    "x"               :205,  
-    "y"               :130,  
-    "text_width"      :35, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :0,  
-    "text_size"       :7 ,  
-    "text_custom"     :""
-  },
-  "dial_text_min_maohao":
-  {
-    "type"            :5,
-    "data_type"       :19, 
-    "x"               :153,  
-    "y"               :130,  
-    "text_width"      :35, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :0,  
-    "text_size"       :7 ,  
-    "text_custom"     :":\n"
-  },
-
-  "dial_text_month":
-  {
-    "type"            :5,
-    "data_type"       :7, 
-    "x"               :120,  
-    "y"               :203,  
-    "text_width"      :35, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :0,  
-    "text_size"       :4,  
-    "text_custom"     :""
-  },
-  "dial_text_data":
-  {
+    "img_addr":"0x00"
+  },  
+  "dial_text":
+  { 
     "type"            :5,
     "data_type"       :8, 
-    "x"               :165,  
-    "y"               :203,  
-    "text_width"      :35, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :0,  
-    "text_size"       :4 ,  
+    "x"               :262,  
+    "y"               :151,  
+    "text_width"      :28, 
+    "text_rgb"        :[219,219,219],  
+    "text_align"      :0 ,  
+    "text_size"       :3 ,  
     "text_custom"     :""
   },
-  "dial_text_xiegang":
+  "dial_pointer_power":
+  { 
+    "type"             :2,   
+    "data_type"        :4,
+    "x"                :43,
+    "y"                :156,  
+    "img_addr"         :"0x4B004",
+    "img_heigth"       :117,
+    "img_width"        :8,
+    "start_arc"        :210,
+    "end_arc"          :270,
+    "rotation_center_x":117,
+    "rotation_center_y":4
+  },
+  "dial_pointer_month":
+  { 
+    "type"             :2,   
+    "data_type"        :6,
+    "x"                :221,
+    "y"                :143,  
+    "img_addr"         :"0x4BB00",
+    "img_heigth"       :8,
+    "img_width"        :26,
+    "start_arc"        :0,
+    "end_arc"          :360,
+    "rotation_center_x":4,
+    "rotation_center_y":17
+  },
+  "dial_pointer_week":
+  { 
+    "type"             :2,   
+    "data_type"        :5,
+    "x"                :157,
+    "y"                :59,  
+    "img_addr"         :"0x4CCA8",
+    "img_heigth"       :6,
+    "img_width"        :38,
+    "start_arc"        :270,
+    "end_arc"          :450,
+    "rotation_center_x":3,
+    "rotation_center_y":34
+  },
+  "dial_pointer_h":
+  { 
+    "type"             :2,   
+    "data_type"        :1,
+    "x"                :152,
+    "y"                :49,  
+    "img_addr"         :"0x5782E", 
+    "img_heigth"       :16,
+    "img_width"        :142,
+    "start_arc"        :0,
+    "end_arc"          :360,
+    "rotation_center_x":8,
+    "rotation_center_y":119
+  },
+  "dial_pointer_m":
+  { 
+    "type"             :2,   
+    "data_type"        :2,
+    "x"                :152,
+    "y"                :22,  
+    "img_addr"         :"0x592D2",
+    "img_heigth"       :16,
+    "img_width"        :169,
+    "start_arc"        :0,
+    "end_arc"          :360,
+    "rotation_center_x":8,
+    "rotation_center_y":138
+  },
+  "dial_pointer_s":
+  { 
+    "type"             :2,   
+    "data_type"        :3,
+    "x"                :157,
+    "y"                :12,  
+    "img_addr"         :"0x5B286",
+    "img_heigth"       :6,
+    "img_width"        :194,
+    "start_arc"        :0,
+    "end_arc"          :360,
+    "rotation_center_x":3,
+    "rotation_center_y":148
+  },
+
+  "single_point":
   {
-    "type"            :5,
-    "data_type"       :19, 
-    "x"               :155,  
-    "y"               :203,  
-    "text_width"      :35, 
-    "text_rgb"        :[255,255,255],  
-    "text_align"      :0,  
-    "text_size"       :4 ,  
-    "text_custom"     :"/"
+    "type":1,
+    "x":142,
+    "y":142,
+    "img_addr":"0x4BD74"
   }
 }
