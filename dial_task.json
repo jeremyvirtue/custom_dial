@@ -1,6 +1,6 @@
 { 
   "dial_id":"37",
-  "little_img_addr":"0x4CF6A",
+  "little_img_addr":"0x4D300",
   "single_image":
   {
     "type":1,
@@ -24,29 +24,29 @@
   { 
     "type"             :2,   
     "data_type"        :4,
-    "x"                :43,
-    "y"                :156,  
+    "x"                :155,
+    "y"                :43,  
     "img_addr"         :"0x4B004",
     "img_heigth"       :117,
-    "img_width"        :8,
+    "img_width"        :10,
     "start_arc"        :210,
     "end_arc"          :270,
-    "rotation_center_x":117,
-    "rotation_center_y":4
+    "rotation_center_x":5,
+    "rotation_center_y":117
   },
   "dial_pointer_month":
   { 
     "type"             :2,   
     "data_type"        :6,
-    "x"                :221,
-    "y"                :143,  
-    "img_addr"         :"0x4BB00",
-    "img_heigth"       :8,
-    "img_width"        :26,
+    "x"                :220,
+    "y"                :142,  
+    "img_addr"         :"0x4BDBE",
+    "img_heigth"       :10,
+    "img_width"        :28,
     "start_arc"        :0,
     "end_arc"          :360,
-    "rotation_center_x":4,
-    "rotation_center_y":17
+    "rotation_center_x":5,
+    "rotation_center_y":18
   },
   "dial_pointer_week":
   { 
@@ -54,9 +54,9 @@
     "data_type"        :5,
     "x"                :157,
     "y"                :59,  
-    "img_addr"         :"0x4CCA8",
+    "img_addr"         :"0x4D03E",
     "img_heigth"       :6,
-    "img_width"        :38,
+    "img_width"        :39,
     "start_arc"        :270,
     "end_arc"          :450,
     "rotation_center_x":3,
@@ -66,43 +66,43 @@
   { 
     "type"             :2,   
     "data_type"        :1,
-    "x"                :152,
-    "y"                :49,  
-    "img_addr"         :"0x5782E", 
-    "img_heigth"       :16,
-    "img_width"        :142,
+    "x"                :151,
+    "y"                :47,  
+    "img_addr"         :"0x57BC4", 
+    "img_heigth"       :18,
+    "img_width"        :145,
     "start_arc"        :0,
     "end_arc"          :360,
-    "rotation_center_x":8,
-    "rotation_center_y":119
+    "rotation_center_x":9,
+    "rotation_center_y":113
   },
   "dial_pointer_m":
   { 
     "type"             :2,   
     "data_type"        :2,
-    "x"                :152,
-    "y"                :22,  
-    "img_addr"         :"0x592D2",
-    "img_heigth"       :16,
-    "img_width"        :169,
+    "x"                :151,
+    "y"                :21,  
+    "img_addr"         :"0x59A5E",
+    "img_heigth"       :18,
+    "img_width"        :171,
     "start_arc"        :0,
     "end_arc"          :360,
-    "rotation_center_x":8,
-    "rotation_center_y":138
+    "rotation_center_x":9,
+    "rotation_center_y":141
   },
   "dial_pointer_s":
   { 
     "type"             :2,   
     "data_type"        :3,
-    "x"                :157,
-    "y"                :12,  
-    "img_addr"         :"0x5B286",
-    "img_heigth"       :6,
-    "img_width"        :194,
+    "x"                :156,
+    "y"                :11,  
+    "img_addr"         :"0x5BE74",
+    "img_heigth"       :8,
+    "img_width"        :196,
     "start_arc"        :0,
     "end_arc"          :360,
     "rotation_center_x":3,
-    "rotation_center_y":148
+    "rotation_center_y":149
   },
 
   "single_point":
@@ -110,6 +110,6 @@
     "type":1,
     "x":142,
     "y":142,
-    "img_addr":"0x4BD74"
+    "img_addr":"0x4C10A"
   }
 }
