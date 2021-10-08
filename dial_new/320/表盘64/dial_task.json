@@ -1,0 +1,50 @@
+{ 
+  "dial_id":"64",
+  "little_img_addr":"0x0",
+  "single_image":
+  {
+    "type":1,
+    "x":0,
+    "y":0,
+    "img_addr":"0xDC0A4"
+  },
+  "dial_mode_image1":
+  {
+    "type"           :6,     
+    "data_type"      :1,       
+    "x"              :50,
+    "y"              :30,
+    "img_addr"       :["0xA8C4","0x1505C","0x1F7F4","0x29F8C","0x34724","0x3EEBC","0x49654","0x53DEC","0x5E584","0x68D1C"],   
+    "data_mode"      :0         
+  },
+  "dial_mode_image2":
+  {
+    "type"           :6,     
+    "data_type"      :2,       
+    "x"              :160,
+    "y"              :30,
+    "img_addr"       :["0xA8C4","0x1505C","0x1F7F4","0x29F8C","0x34724","0x3EEBC","0x49654","0x53DEC","0x5E584","0x68D1C"],    
+    "data_mode"      :0         
+  },
+  "dial_mode_image3":
+  {
+    "type"           :6,     
+    "data_type"      :3,       
+    "x"              :50,
+    "y"              :160,
+    "img_addr"       :["0x734B4","0x7DC4C","0x883E4","0x92B7C","0x9D314","0xA7AAC","0xB2244","0xBC9DC","0xC7174","0xD190C"],
+    "data_mode"      :0         
+  },
+  "dial_mode_image4":
+  {
+    "type"           :6,     
+    "data_type"      :4,       
+    "x"              :160,
+    "y"              :160,
+    "img_addr"       :["0x734B4","0x7DC4C","0x883E4","0x92B7C","0x9D314","0xA7AAC","0xB2244","0xBC9DC","0xC7174","0xD190C"],
+    "data_mode"      :0             
+  }
+
+
+
+}

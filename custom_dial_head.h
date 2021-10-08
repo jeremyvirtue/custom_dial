@@ -3,8 +3,6 @@
 
 #include "stdint.h"
 
-
-
  struct _custom_dial_image//纯图片
 {
   uint8_t type;
@@ -95,6 +93,16 @@ struct _custom_dial_gif{
 };
 typedef struct _custom_dial_gif custom_dial_gif;
 
+//
+struct _custom_dial_roller{
+  uint8_t type;
+  uint8_t data_type;  //数据类型
+  uint16_t x;         //左上角x坐标
+  uint16_t y;         //左上角y坐标  
+};
+typedef struct _custom_dial_roller custom_dial_roller;
+
+
 //大类型
 enum _enum_custom_dial_type{
 	dial_type_null = 0,
@@ -104,7 +112,8 @@ enum _enum_custom_dial_type{
 	dial_type_chart_bar,
 	dial_type_text,
 	dial_type_more_img,
-	dial_type_gif,
+	dial_type_gif, 
+	dial_type_roller,
 };
 typedef enum _enum_custom_dial_type enum_custom_dial_type;
 
@@ -150,9 +159,14 @@ enum _enum_custom_dial_data_more_img{//多图数据类型
 	dial_data_img_blue 		= 20,			//是否有蓝牙 0关 1开		
 	dial_data_img_alarm 	= 21,			//是否有闹钟 0无 1有		
 	dial_data_img_disturb = 22,		//是否开勿扰 0关 1开		
-	dial_data_img_power 	= 23,			//电池电量等级 0：0~4 1：5~29 	2：30~49	3：50~79		4：80~100		
+	dial_data_img_power 	= 23,			//电池电量等级 0：0~4 1：5~29 	2：30~49	3：50~79		4：80~100	
 
+	dial_data_img_am = 24,//显示AM 和PM
 
+	dial_data_kal_thousands = 25,//kal千位
+	dial_data_kal_hundreds = 26,//kal百位
+	dial_data_kal_ten = 27,//kal十位
+	dial_data_kal_one = 28,//kal个位
 };
 typedef enum _enum_custom_dial_data_more_img enum_custom_dial_data_more_img;
 
@@ -189,6 +203,7 @@ typedef enum _enum_custom_dial_data_gif enum_custom_dial_data_gif;
 	dial_data_text_power2=21,			//当前电量 数字 后面不加%
 	dial_data_text_sec=22,			//秒 两位数
 	dial_data_text_distance = 23,//运动距离
+	dial_data_text_now_tem2=24,//当前温度 （个位前面有个0）没有单位
 
 };
 typedef enum _enum_custom_text_data enum_custom_text_data;
@@ -199,27 +214,34 @@ typedef enum _enum_custom_text_data enum_custom_text_data;
 	dial_data_arc_null = 0,
 	dial_data_arc_step = 1,//步数
 	dial_data_arc_kal = 2,//卡路里
+	dial_data_arc_distance = 3,//距离
 
 };
 typedef enum _enum_custom_arc_type enum_custom_arc_type;
+
+ enum _enum_custom_roller_type//圆弧数据类型
+ {
+	dial_data_roller_null = 0,
+	dial_data_roller_min = 1,//分钟
+
+};
+typedef enum _enum_custom_roller_type enum_custom_roller_type;
 
 enum _enum_custom_text_size//文本类型大小
 {
 	dial_data_text_size_null = 0,
 
-	dial_data_16x16_ext=1,//不支持多语言
-	dial_data_20x20_ext=2,
-	dial_data_24x24_ext=3,
-	dial_data_30x30_ext=4,
-	dial_data_40x40_ext=5,//不支持多语言
-	dial_data_50x50_ext=6,//不支持多语言
-	dial_data_60x60_ext=7,//不支持多语言
-	dial_data_80x80_ext=8,//不支持多语言
+	dial_data_16x16_ext=1,//不支持多语言	// 12											
+	dial_data_20x20_ext=2,								// 16				
+	dial_data_24x24_ext=3,								// 20				
+	dial_data_30x30_ext=4,								// 30				
+	dial_data_40x40_ext=5,//不支持多语言	//  45										
+	dial_data_50x50_ext=6,//不支持多语言	// 	60										
+	dial_data_60x60_ext=7,//不支持多语言	// 											
+	dial_data_80x80_ext=8,//不支持多语言	// 											
 };
 typedef enum _enum_custom_text_size enum_custom_text_size;
 
-
- 
 
 
 enum {

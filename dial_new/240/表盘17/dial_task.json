@@ -1,0 +1,73 @@
+{ 
+  "dial_id":"17",
+  "little_img_addr":"0x0",
+  "single_image":
+  {
+    "type":1,
+    "x":15,
+    "y":8,
+    "img_addr":"0x5FFE"
+  },  
+  "dial_text_hour_high":
+  { 
+    "type"            :5,
+    "data_type"       :1, 
+    "x"               :43,  
+    "y"               :98,  
+    "text_width"      :34, 
+    "text_rgb"        :[255,255,255],  
+    "text_align"      :0 ,  
+    "text_size"       :6 ,  
+    "text_custom"     :""
+  },
+  "dial_text_hour_low":
+  { 
+    "type"            :5,
+    "data_type"       :2, 
+    "x"               :77,  
+    "y"               :98,  
+    "text_width"      :34, 
+    "text_rgb"        :[255,255,255],  
+    "text_align"      :0 ,  
+    "text_size"       :6 ,  
+    "text_custom"     :""
+  },
+  "dial_text_min_hour":
+  { 
+    "type"            :5,
+    "data_type"       :3, 
+    "x"               :128,  
+    "y"               :98,  
+    "text_width"      :34, 
+    "text_rgb"        :[255,255,255],  
+    "text_align"      :0 ,  
+    "text_size"       :6 ,  
+    "text_custom"     :""
+  },
+  "dial_text_min_low":
+  { 
+    "type"            :5,
+    "data_type"       :1, 
+    "x"               :162,  
+    "y"               :98,  
+    "text_width"      :34, 
+    "text_rgb"        :[255,255,255],  
+    "text_align"      :0 ,  
+    "text_size"       :6 ,  
+    "text_custom"     :""
+  },
+  "dial_text_maohao":
+  { 
+    "type"            :5,
+    "data_type"       :19, 
+    "x"               :111,  
+    "y"               :98,  
+    "text_width"      :17, 
+    "text_rgb"        :[255,255,255],  
+    "text_align"      :0 ,  
+    "text_size"       :6 ,  
+    "text_custom"     :":"
+  }
+ 
+
+}

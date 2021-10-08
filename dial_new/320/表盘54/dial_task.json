@@ -1,0 +1,39 @@
+{ 
+  "dial_id":"54",
+  "little_img_addr":"0x0",
+  "single_image":
+  {
+    "type":1,
+    "x":0,
+    "y":0,
+    "img_addr":"0xA8C4"
+  },
+  "dial_pointer1":
+  { 
+    "type"             :2,   
+    "data_type"        :1,
+    "x"                :156,
+    "y"                :65,  
+    "img_addr"         :"0x558C8", 
+    "img_heigth"       :8,
+    "img_width"        :95,
+    "start_arc"        :0,
+    "end_arc"          :360,
+    "rotation_center_x":4,
+    "rotation_center_y":95
+  },
+  "dial_pointer2":
+  { 
+    "type"             :2,   
+    "data_type"        :2,
+    "x"                :157,
+    "y"                :45,  
+    "img_addr"         :"0x561B4",
+    "img_heigth"       :6,
+    "img_width"        :115,
+    "start_arc"        :0,
+    "end_arc"          :360,
+    "rotation_center_x":3,
+    "rotation_center_y":115
+  }
+}

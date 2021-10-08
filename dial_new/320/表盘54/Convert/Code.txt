@@ -1,4 +1,4 @@
-#define      main_54_120x120_png                                                                                  (default_base+0x00)
-#define      main_54_bg_png                                                                                     (default_base+0xA8C4)
-#define      main_h_8x95_c0_png                                                                                (default_base+0x558C8)
-#define      main_m_6x115_c0_png                                                                               (default_base+0x561B4)
+#define      main_54_120x120_png                    (default_base+0x00)
+#define      main_54_bg_png                       (default_base+0xA8C4)
+#define      main_h_8x95_c0_png                  (default_base+0x558C8)
+#define      main_m_6x115_c0_png                 (default_base+0x561B4)

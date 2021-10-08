@@ -1,2 +1,2 @@
-#define      main_17_120x120_png                                                                                  (default_base+0x00)
-#define      main_17_bg_png                                                                                     (default_base+0xA8C4)
+#define      main_17_120x120_png              (default_base+0x00)
+#define      main_17_bg_png                 (default_base+0xA8C4)

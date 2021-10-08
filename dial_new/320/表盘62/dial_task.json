@@ -1,0 +1,64 @@
+{ 
+  "dial_id":"62",
+  "little_img_addr":"0x0",
+  "single_image":
+  {
+    "type":1,
+    "x":0,
+    "y":0,
+    "img_addr":"0xA0FF0"
+  },
+  "dial_text_am":
+  { 
+    "type"            :5,
+    "data_type"       :20, 
+    "x"               :261,  
+    "y"               :232,  
+    "text_width"      :40, 
+    "text_rgb"        :[255,255,255],  
+    "text_align"      :0 ,  
+    "text_size"       :2,  
+    "text_custom"     :""
+  },
+  "dial_mode_image1":
+  {
+    "type"           :6,     
+    "data_type"      :1,       
+    "x"              :178,
+    "y"              :24,
+    "img_addr"       :["0x2FF0C","0x33AE0","0x376B4","0x3B288","0x3EE5C","0x42A30","0x46604","0x4A1D8","0x4DDAC","0x51980"],   
+    "data_mode"      :0         
+  },
+  "dial_mode_image2":
+  {
+    "type"           :6,     
+    "data_type"      :2,       
+    "x"              :239,
+    "y"              :24,
+    "img_addr"       :["0x2FF0C","0x33AE0","0x376B4","0x3B288","0x3EE5C","0x42A30","0x46604","0x4A1D8","0x4DDAC","0x51980"],   
+    "data_mode"      :0         
+  },
+  "dial_mode_image3":
+  {
+    "type"           :6,     
+    "data_type"      :3,       
+    "x"              :178,
+    "y"              :136,
+    "img_addr"       :["0x2FF0C","0x33AE0","0x376B4","0x3B288","0x3EE5C","0x42A30","0x46604","0x4A1D8","0x4DDAC","0x51980"],   
+    "data_mode"      :0         
+  },
+  "dial_mode_image4":
+  {
+    "type"           :6,     
+    "data_type"      :4,       
+    "x"              :239,
+    "y"              :136,
+    "img_addr"       :["0x2FF0C","0x33AE0","0x376B4","0x3B288","0x3EE5C","0x42A30","0x46604","0x4A1D8","0x4DDAC","0x51980"],   
+    "data_mode"      :0             
+  }
+
+
+
+
+
+}

@@ -4,7 +4,7 @@
  * @Author: Jeremy
  * @Date: 2021-08-09 14:23:55
  * @LastEditors: Jeremy
- * @LastEditTime: 2021-09-02 14:26:04
+ * @LastEditTime: 2021-09-17 09:48:09
  */
 /*
  * @LastEditTime: 2021-08-09 13:40:08
@@ -289,11 +289,9 @@ int main()
 
   printf("\nhello world\n");
 
-  FILE *fp = NULL; 
+  FILE *fp = NULL;  
   
-
-
-  char file_name[] = "dial_bin//240/001240_U0.";
+  char file_name[] = "dial_bin//320/001320_U0.";
   strcat(file_name,cjson_dial_id->valuestring);
   strcat(file_name,".bin");
   uint32_t dial_id[32] = {0};
@@ -313,42 +311,9 @@ int main()
   int c;
   f_rb = fopen("AllBinData.bin","rb");//写入图片bin数据
   while((	c=fgetc(f_rb))!=EOF) { putc(c, fp);}	
-  fclose(f_rb); 
-
+  fclose(f_rb);  
 
   fclose(fp);
-
-// 	int t;//计算CRC
-// 	unsigned char c1;
-// 	unsigned short crc = 0xffff; 
-// 	f_rb = fopen(file_name,"rb");
-// 	fseek(f_rb,sizeof(head_bin4) + sizeof(crc8),SEEK_SET);
-// 	while((	t=fgetc(f_rb)) != EOF ) 
-// 	{
-// 		c1 = (unsigned char)t;
-// 		crc  = (unsigned char)(crc >> 8) | (crc << 8);
-// 	    crc ^= c1;
-// 	    crc ^= (unsigned char)(crc & 0xff) >> 4;
-// 	    crc ^= (crc << 8) << 4;
-// 	    crc ^= ((crc & 0xff) << 4) << 1;
-// 	}
-// 	printf("0x%X\r\n",crc); 
-//   crc8[0] = crc;
-//   crc8[1] = crc>>8;
-
-// 	fclose(f_rb);
-
-// //写入CRC
-// 	f_rb = fopen(file_name,"a");
-//   fwrite(&crc8,sizeof(crc8),1,fp);     //crc 放在尾部  
-// 	fclose(f_rb);
-  
-// 	f_rb = fopen(file_name,"r+"); 
-//   fseek(f_rb,sizeof(head_bin4),SEEK_SET);
-//   fwrite(&crc8,sizeof(crc8),1,fp);     //crc 放在头 
-// 	fclose(f_rb);
-
-
 
   printf("ok\n");
 
@@ -359,15 +324,15 @@ int main()
 	// FILE *f_rb,*f_wb;
 	// long n,offset;
 	// int c;
-	// f_rb = fopen("AllBinData.bin","rb");
+	// f_rb = fopen("AllbinData.bin","rb");
 	
-	// f_wb = fopen("001001_R0.5.bin","w+");
+	// f_wb = fopen("001001_R0.6.bin","w+");
 	
 	// // fseek(f_wb,0,SEEK_END);
 	// fputc('\x00',f_wb);//0X00
 	// fputc('\x00',f_wb);//0X00
-	// fputc('\x02',f_wb);//0X00
-	// fputc('\x04',f_wb);//0X00
+	// fputc('\xcc',f_wb);//0X00
+	// fputc('\x03',f_wb);//0X00
 	// while((	c=fgetc(f_rb))!=EOF) fputc(c, f_wb);	
 	// fclose(f_rb);
 
